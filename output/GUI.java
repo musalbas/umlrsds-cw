@@ -12,7 +12,8 @@ public class GUI extends JFrame implements ActionListener
   JButton loadModelButton = new JButton("loadModel");
   JButton saveModelButton = new JButton("saveModel");
   JButton checkButton = new JButton("check");
-  JButton migrateGPButton = new JButton("migrateGP");
+  JButton displayReferralsButton = new JButton("displayReferrals");
+  JButton displayConsultationsButton = new JButton("displayConsultations");
 
  public GUI()
   { super("Select use case to execute");
@@ -26,8 +27,10 @@ public class GUI extends JFrame implements ActionListener
   saveModelButton.addActionListener(this);
   panel.add(checkButton);
   checkButton.addActionListener(this);
-  panel.add(migrateGPButton);
-  migrateGPButton.addActionListener(this);
+  panel.add(displayReferralsButton);
+  displayReferralsButton.addActionListener(this);
+  panel.add(displayConsultationsButton);
+  displayConsultationsButton.addActionListener(this);
   }
 
   public void actionPerformed(ActionEvent e)
@@ -44,8 +47,10 @@ public class GUI extends JFrame implements ActionListener
       return; } 
     if ("check".equals(cmd))
     {  cont.check() ;  return; } 
-    if ("migrateGP".equals(cmd))
-    {  cont.migrateGP() ;  return; } 
+    if ("displayReferrals".equals(cmd))
+    {  cont.displayReferrals() ;  return; } 
+    if ("displayConsultations".equals(cmd))
+    {  cont.displayConsultations() ;  return; } 
   }
 
   public static void main(String[] args)

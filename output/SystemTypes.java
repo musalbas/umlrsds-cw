@@ -13,6 +13,24 @@ public interface SystemTypes
 
 
 
+  public static List collect_1(List _l)
+  { List _results_1 = new Vector();
+    for (int _i = 0; _i < _l.size(); _i++)
+    { Consultation consultation_1_xx = (Consultation) _l.get(_i);
+     _results_1.add(new Integer(consultation_1_xx.getdate()));
+    }
+    return _results_1;
+  }
+
+  public static List collect_0(List _l)
+  { List _results_0 = new Vector();
+    for (int _i = 0; _i < _l.size(); _i++)
+    { Referral referral_0_xx = (Referral) _l.get(_i);
+     _results_0.add(new Integer(referral_0_xx.getdate()));
+    }
+    return _results_0;
+  }
+
 
     public static boolean equals(List a, List b)
     { return a.containsAll(b) && b.containsAll(a); }

@@ -10,6 +10,26 @@
 <patientgps xsi:type="My:PatientGP" Id="7"  nhsNumber="patientGP7"  name1="patientGP7"  name2="patientGP7"  dob="7"  addr1="patientGP7"  addr2="patientGP7"  postcode="patientGP7"  isMale="false"  registeredWith = " //@doctors.7" consultations = "" referrals = " //@referrals.3" />
 <patientgps xsi:type="My:PatientGP" Id="8"  nhsNumber="patientGP8"  name1="patientGP8"  name2="patientGP8"  dob="8"  addr1="patientGP8"  addr2="patientGP8"  postcode="patientGP8"  isMale="false"  registeredWith = " //@doctors.8" consultations = " //@consultations.4" referrals = "" />
 <patientgps xsi:type="My:PatientGP" Id="9"  nhsNumber="patientGP9"  name1="patientGP9"  name2="patientGP9"  dob="9"  addr1="patientGP9"  addr2="patientGP9"  postcode="patientGP9"  isMale="false"  registeredWith = " //@doctors.9" consultations = "" referrals = " //@referrals.4" />
+<patientgps xsi:type="My:PatientGP" Id="0"  nhsNumber="patientGP0"  name1="patientGP0"  name2="patientGP0"  dob="0"  addr1="patientGP0"  addr2="patientGP0"  postcode="patientGP0"  isMale="false"  registeredWith = " //@doctors.10" consultations = " //@consultations.5" referrals = "" />
+<patientgps xsi:type="My:PatientGP" Id="1"  nhsNumber="patientGP1"  name1="patientGP1"  name2="patientGP1"  dob="1"  addr1="patientGP1"  addr2="patientGP1"  postcode="patientGP1"  isMale="false"  registeredWith = " //@doctors.11" consultations = "" referrals = " //@referrals.5" />
+<patientgps xsi:type="My:PatientGP" Id="2"  nhsNumber="patientGP2"  name1="patientGP2"  name2="patientGP2"  dob="2"  addr1="patientGP2"  addr2="patientGP2"  postcode="patientGP2"  isMale="false"  registeredWith = " //@doctors.12" consultations = " //@consultations.6" referrals = "" />
+<patientgps xsi:type="My:PatientGP" Id="3"  nhsNumber="patientGP3"  name1="patientGP3"  name2="patientGP3"  dob="3"  addr1="patientGP3"  addr2="patientGP3"  postcode="patientGP3"  isMale="false"  registeredWith = " //@doctors.13" consultations = "" referrals = " //@referrals.6" />
+<patientgps xsi:type="My:PatientGP" Id="4"  nhsNumber="patientGP4"  name1="patientGP4"  name2="patientGP4"  dob="4"  addr1="patientGP4"  addr2="patientGP4"  postcode="patientGP4"  isMale="false"  registeredWith = " //@doctors.14" consultations = " //@consultations.7" referrals = "" />
+<patientgps xsi:type="My:PatientGP" Id="5"  nhsNumber="patientGP5"  name1="patientGP5"  name2="patientGP5"  dob="5"  addr1="patientGP5"  addr2="patientGP5"  postcode="patientGP5"  isMale="false"  registeredWith = " //@doctors.15" consultations = "" referrals = " //@referrals.7" />
+<patientgps xsi:type="My:PatientGP" Id="6"  nhsNumber="patientGP6"  name1="patientGP6"  name2="patientGP6"  dob="6"  addr1="patientGP6"  addr2="patientGP6"  postcode="patientGP6"  isMale="false"  registeredWith = " //@doctors.16" consultations = " //@consultations.8" referrals = "" />
+<patientgps xsi:type="My:PatientGP" Id="7"  nhsNumber="patientGP7"  name1="patientGP7"  name2="patientGP7"  dob="7"  addr1="patientGP7"  addr2="patientGP7"  postcode="patientGP7"  isMale="false"  registeredWith = " //@doctors.17" consultations = "" referrals = " //@referrals.8" />
+<patientgps xsi:type="My:PatientGP" Id="8"  nhsNumber="patientGP8"  name1="patientGP8"  name2="patientGP8"  dob="8"  addr1="patientGP8"  addr2="patientGP8"  postcode="patientGP8"  isMale="false"  registeredWith = " //@doctors.18" consultations = " //@consultations.9" referrals = "" />
+<patientgps xsi:type="My:PatientGP" Id="9"  nhsNumber="patientGP9"  name1="patientGP9"  name2="patientGP9"  dob="9"  addr1="patientGP9"  addr2="patientGP9"  postcode="patientGP9"  isMale="false"  registeredWith = " //@doctors.19" consultations = "" referrals = " //@referrals.9" />
+<doctors xsi:type="My:Doctor" name1="doctorGP0"  name2="doctorGP0"  surgery="mysurgery"  staffNumber="0"  />
+<doctors xsi:type="My:Doctor" name1="doctorGP1"  name2="doctorGP1"  surgery="mysurgery"  staffNumber="1"  />
+<doctors xsi:type="My:Doctor" name1="doctorGP2"  name2="doctorGP2"  surgery="mysurgery"  staffNumber="2"  />
+<doctors xsi:type="My:Doctor" name1="doctorGP3"  name2="doctorGP3"  surgery="mysurgery"  staffNumber="3"  />
+<doctors xsi:type="My:Doctor" name1="doctorGP4"  name2="doctorGP4"  surgery="mysurgery"  staffNumber="4"  />
+<doctors xsi:type="My:Doctor" name1="doctorGP5"  name2="doctorGP5"  surgery="mysurgery"  staffNumber="5"  />
+<doctors xsi:type="My:Doctor" name1="doctorGP6"  name2="doctorGP6"  surgery="mysurgery"  staffNumber="6"  />
+<doctors xsi:type="My:Doctor" name1="doctorGP7"  name2="doctorGP7"  surgery="mysurgery"  staffNumber="7"  />
+<doctors xsi:type="My:Doctor" name1="doctorGP8"  name2="doctorGP8"  surgery="mysurgery"  staffNumber="8"  />
+<doctors xsi:type="My:Doctor" name1="doctorGP9"  name2="doctorGP9"  surgery="mysurgery"  staffNumber="9"  />
 <doctors xsi:type="My:Doctor" name1="doctorGP0"  name2="doctorGP0"  surgery="mysurgery"  staffNumber="0"  />
 <doctors xsi:type="My:Doctor" name1="doctorGP1"  name2="doctorGP1"  surgery="mysurgery"  staffNumber="1"  />
 <doctors xsi:type="My:Doctor" name1="doctorGP2"  name2="doctorGP2"  surgery="mysurgery"  staffNumber="2"  />
@@ -25,49 +45,19 @@
 <consultations xsi:type="My:Consultation" date="4"  outcome="prescribed antidepressant"  symptoms="general malaise"  doctor="//@doctors.4" />
 <consultations xsi:type="My:Consultation" date="6"  outcome="prescribed antidepressant"  symptoms="general malaise"  doctor="//@doctors.6" />
 <consultations xsi:type="My:Consultation" date="8"  outcome="prescribed antidepressant"  symptoms="general malaise"  doctor="//@doctors.8" />
+<consultations xsi:type="My:Consultation" date="0"  outcome="prescribed antidepressant"  symptoms="general malaise"  doctor="//@doctors.10" />
+<consultations xsi:type="My:Consultation" date="2"  outcome="prescribed antidepressant"  symptoms="general malaise"  doctor="//@doctors.12" />
+<consultations xsi:type="My:Consultation" date="4"  outcome="prescribed antidepressant"  symptoms="general malaise"  doctor="//@doctors.14" />
+<consultations xsi:type="My:Consultation" date="6"  outcome="prescribed antidepressant"  symptoms="general malaise"  doctor="//@doctors.16" />
+<consultations xsi:type="My:Consultation" date="8"  outcome="prescribed antidepressant"  symptoms="general malaise"  doctor="//@doctors.18" />
 <referrals xsi:type="My:Referral" date="1"  referredTo="dietician"  referrer="//@doctors.1" />
 <referrals xsi:type="My:Referral" date="3"  referredTo="dietician"  referrer="//@doctors.3" />
 <referrals xsi:type="My:Referral" date="5"  referredTo="dietician"  referrer="//@doctors.5" />
 <referrals xsi:type="My:Referral" date="7"  referredTo="dietician"  referrer="//@doctors.7" />
 <referrals xsi:type="My:Referral" date="9"  referredTo="dietician"  referrer="//@doctors.9" />
-<patienths xsi:type="My:PatientH" hospitalNumber="patientH0"  forename="patientGP0"  surname="patientGP0"  ageyrs="0"  agemnths="0"  ward="patientH0"  bed="0"  inpatient="true"  treatments = " //@treatments.0" investigations = "" />
-<patienths xsi:type="My:PatientH" hospitalNumber="patientH1"  forename="patientGP1"  surname="patientGP1"  ageyrs="0"  agemnths="1"  ward="patientH1"  bed="1"  inpatient="true"  treatments = "" investigations = " //@investigations.0" />
-<patienths xsi:type="My:PatientH" hospitalNumber="patientH2"  forename="patientGP2"  surname="patientGP2"  ageyrs="0"  agemnths="2"  ward="patientH2"  bed="2"  inpatient="true"  treatments = " //@treatments.1" investigations = "" />
-<patienths xsi:type="My:PatientH" hospitalNumber="patientH3"  forename="patientGP3"  surname="patientGP3"  ageyrs="0"  agemnths="3"  ward="patientH3"  bed="3"  inpatient="true"  treatments = "" investigations = " //@investigations.1" />
-<patienths xsi:type="My:PatientH" hospitalNumber="patientH4"  forename="patientGP4"  surname="patientGP4"  ageyrs="0"  agemnths="4"  ward="patientH4"  bed="4"  inpatient="true"  treatments = " //@treatments.2" investigations = "" />
-<patienths xsi:type="My:PatientH" hospitalNumber="patientH5"  forename="patientGP5"  surname="patientGP5"  ageyrs="0"  agemnths="5"  ward="patientH5"  bed="5"  inpatient="true"  treatments = "" investigations = " //@investigations.2" />
-<patienths xsi:type="My:PatientH" hospitalNumber="patientH6"  forename="patientGP6"  surname="patientGP6"  ageyrs="0"  agemnths="6"  ward="patientH6"  bed="6"  inpatient="true"  treatments = " //@treatments.3" investigations = "" />
-<patienths xsi:type="My:PatientH" hospitalNumber="patientH7"  forename="patientGP7"  surname="patientGP7"  ageyrs="0"  agemnths="7"  ward="patientH7"  bed="7"  inpatient="true"  treatments = "" investigations = " //@investigations.3" />
-<patienths xsi:type="My:PatientH" hospitalNumber="patientH8"  forename="patientGP8"  surname="patientGP8"  ageyrs="0"  agemnths="8"  ward="patientH8"  bed="8"  inpatient="true"  treatments = " //@treatments.4" investigations = "" />
-<patienths xsi:type="My:PatientH" hospitalNumber="patientH9"  forename="patientGP9"  surname="patientGP9"  ageyrs="0"  agemnths="9"  ward="patientH9"  bed="9"  inpatient="true"  treatments = "" investigations = " //@investigations.4" />
-<treatments xsi:type="My:Treatment" date="0"  description="minor surgery"  clinicians = " //@clinicians.0" />
-<treatments xsi:type="My:Treatment" date="2"  description="minor surgery"  clinicians = " //@clinicians.2" />
-<treatments xsi:type="My:Treatment" date="4"  description="minor surgery"  clinicians = " //@clinicians.4" />
-<treatments xsi:type="My:Treatment" date="6"  description="minor surgery"  clinicians = " //@clinicians.6" />
-<treatments xsi:type="My:Treatment" date="8"  description="minor surgery"  clinicians = " //@clinicians.8" />
-<investigations xsi:type="My:Investigation" description="ultrasound scan"  result="normal"  clinicians = " //@clinicians.1" />
-<investigations xsi:type="My:Investigation" description="ultrasound scan"  result="normal"  clinicians = " //@clinicians.3" />
-<investigations xsi:type="My:Investigation" description="ultrasound scan"  result="normal"  clinicians = " //@clinicians.5" />
-<investigations xsi:type="My:Investigation" description="ultrasound scan"  result="normal"  clinicians = " //@clinicians.7" />
-<investigations xsi:type="My:Investigation" description="ultrasound scan"  result="normal"  clinicians = " //@clinicians.9" />
-<clinicians xsi:type="My:Clinician" name="clinician0"  jobTitle="clinician0"  jobCode="0"  />
-<clinicians xsi:type="My:Clinician" name="clinician1"  jobTitle="clinician1"  jobCode="1"  />
-<clinicians xsi:type="My:Clinician" name="clinician2"  jobTitle="clinician2"  jobCode="2"  />
-<clinicians xsi:type="My:Clinician" name="clinician3"  jobTitle="clinician3"  jobCode="3"  />
-<clinicians xsi:type="My:Clinician" name="clinician4"  jobTitle="clinician4"  jobCode="4"  />
-<clinicians xsi:type="My:Clinician" name="clinician5"  jobTitle="clinician5"  jobCode="5"  />
-<clinicians xsi:type="My:Clinician" name="clinician6"  jobTitle="clinician6"  jobCode="6"  />
-<clinicians xsi:type="My:Clinician" name="clinician7"  jobTitle="clinician7"  jobCode="7"  />
-<clinicians xsi:type="My:Clinician" name="clinician8"  jobTitle="clinician8"  jobCode="8"  />
-<clinicians xsi:type="My:Clinician" name="clinician9"  jobTitle="clinician9"  jobCode="9"  />
-<patients xsi:type="My:Patient" nhsNo="patientGP0"  fname="patientGP0"  sname="patientGP0"  dob="0"  address1="patientGP0"  address2="patientGP0"  Id="0"  interventions = "" />
-<patients xsi:type="My:Patient" nhsNo="patientGP1"  fname="patientGP1"  sname="patientGP1"  dob="1"  address1="patientGP1"  address2="patientGP1"  Id="1"  interventions = "" />
-<patients xsi:type="My:Patient" nhsNo="patientGP2"  fname="patientGP2"  sname="patientGP2"  dob="2"  address1="patientGP2"  address2="patientGP2"  Id="2"  interventions = "" />
-<patients xsi:type="My:Patient" nhsNo="patientGP3"  fname="patientGP3"  sname="patientGP3"  dob="3"  address1="patientGP3"  address2="patientGP3"  Id="3"  interventions = "" />
-<patients xsi:type="My:Patient" nhsNo="patientGP4"  fname="patientGP4"  sname="patientGP4"  dob="4"  address1="patientGP4"  address2="patientGP4"  Id="4"  interventions = "" />
-<patients xsi:type="My:Patient" nhsNo="patientGP5"  fname="patientGP5"  sname="patientGP5"  dob="5"  address1="patientGP5"  address2="patientGP5"  Id="5"  interventions = "" />
-<patients xsi:type="My:Patient" nhsNo="patientGP6"  fname="patientGP6"  sname="patientGP6"  dob="6"  address1="patientGP6"  address2="patientGP6"  Id="6"  interventions = "" />
-<patients xsi:type="My:Patient" nhsNo="patientGP7"  fname="patientGP7"  sname="patientGP7"  dob="7"  address1="patientGP7"  address2="patientGP7"  Id="7"  interventions = "" />
-<patients xsi:type="My:Patient" nhsNo="patientGP8"  fname="patientGP8"  sname="patientGP8"  dob="8"  address1="patientGP8"  address2="patientGP8"  Id="8"  interventions = "" />
-<patients xsi:type="My:Patient" nhsNo="patientGP9"  fname="patientGP9"  sname="patientGP9"  dob="9"  address1="patientGP9"  address2="patientGP9"  Id="9"  interventions = "" />
+<referrals xsi:type="My:Referral" date="1"  referredTo="dietician"  referrer="//@doctors.11" />
+<referrals xsi:type="My:Referral" date="3"  referredTo="dietician"  referrer="//@doctors.13" />
+<referrals xsi:type="My:Referral" date="5"  referredTo="dietician"  referrer="//@doctors.15" />
+<referrals xsi:type="My:Referral" date="7"  referredTo="dietician"  referrer="//@doctors.17" />
+<referrals xsi:type="My:Referral" date="9"  referredTo="dietician"  referrer="//@doctors.19" />
 </My:model>
