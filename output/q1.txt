@@ -1,0 +1,63 @@
+
+
+GeneralUseCase:
+check
+
+
+
+
+
+Constraint:
+dob <= 0
+null
+( "Patient " + self + " has no date of birth value" )->display()
+PatientGP check
+false
+
+
+
+Constraint:
+name1 = ""
+null
+( "Patient " + self + " has no first name (name1) value" )->display()
+PatientGP check
+false
+
+
+
+Constraint:
+name2 = ""
+null
+( "Patient " + self + " has no surname (name2) value" )->display()
+PatientGP check
+false
+
+
+
+Constraint:
+addr1 = ""
+null
+( "Patient " + self + " has no address 1 value" )->display()
+PatientGP check
+false
+
+
+
+Constraint:
+addr2 = ""
+null
+( "Patient " + self + " has no address 2 value" )->display()
+PatientGP check
+false
+
+
+
+Constraint:
+p : PatientGP
+p.Id /= Id & p.name1 = name1 & p.name2 = name2 & p.dob = dob & p.isMale = isMale
+( "Duplicate patients?: " + self + " and " + p )->display()
+PatientGP check
+false
+
+
+
