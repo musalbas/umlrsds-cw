@@ -1,0 +1,12 @@
+GeneralUseCase:
+check
+
+
+
+Constraint:
+null
+r : referrals->sortedBy(date)
+( "Patient: " + self.name1 + " " + self.name2 + " was referred to " + r.referredTo + " on " + r.date )->display()
+PatientGP check
+false
+
