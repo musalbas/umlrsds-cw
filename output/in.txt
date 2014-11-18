@@ -1,5 +1,5 @@
 patientGP0 : PatientGP
-patientGP0.Id = ""
+patientGP0.Id = "0"
 patientGP0.nhsNumber = "patientGP0"
 patientGP0.name1 = "patientGP0"
 patientGP0.name2 = "patientGP0"
