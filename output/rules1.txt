@@ -1,0 +1,50 @@
+
+
+GeneralUseCase:
+check 
+
+
+
+
+Constraint:
+Id = ""
+null
+( "Patient " + self + " has no Id value" )->display()
+PatientGP check
+false
+
+
+
+Constraint:
+p : PatientGP
+p.Id /= Id & p.name1 = name1 & p.name2 = name2 & p.dob = dob
+( "Duplicate patients?: " + self + " and " + p )->display()
+PatientGP check
+false
+
+
+
+Constraint:
+null
+referrals.referredTo->includes("optician")
+( "Patient: " + self + " was referred to an optician" )->display()
+PatientGP check
+false
+
+
+
+GeneralUseCase:
+migrateGP 
+
+
+
+
+Constraint:
+null
+true
+Patient->exists( q | q.Id = Id & q.nhsNo = nhsNumber & q.fname = name1 & q.sname = name2 & q.dob = dob & q.address1 = addr1 & q.address2 = addr2 )
+PatientGP migrateGP
+false
+
+
+

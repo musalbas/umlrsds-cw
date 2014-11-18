@@ -1,0 +1,60 @@
+Entity:
+PatientGP 3 4
+null  * 
+Id String 3 false true false nhsNumber String 3 false false false name1 String 3 false false false name2 String 3 false false false dob int 3 false false false addr1 String 3 false false false addr2 String 3 false false false postcode String 3 false false false isMale boolean 3 false false false
+
+Operation:
+toString
+PatientGP
+String
+
+ query
+true
+result = name1 + " " + name2 + " " + nhsNumber
+
+
+Entity:
+Doctor 370 7
+null  * 
+name1 String 3 false false false name2 String 3 false false false surgery String 3 false false false staffNumber String 3 false true false
+
+Entity:
+Consultation 253 123
+null  * 
+date int 3 false false false outcome String 3 false false false symptoms String 3 false false false
+
+Operation:
+toString
+Consultation
+String
+
+ query
+true
+result = "Consultation on: " + date + " Symptoms: " + symptoms + " Outcome: " + outcome
+
+
+Entity:
+Referral 308 204
+null  * 
+date int 3 false false false referredTo String 3 false false false
+
+Association:
+PatientGP Doctor 0 138 50 371 51 0 registeredWith null 
+
+
+Association:
+PatientGP Consultation 1 139 152 253 153 0 consultations null 
+
+
+Association:
+Consultation Doctor 0 363 132 398 92 1 doctor null 
+
+
+Association:
+PatientGP Referral 1 112 162 310 240 0 referrals null 
+
+
+Association:
+Referral Doctor 0 415 206 477 90 1 referrer null 
+
+
