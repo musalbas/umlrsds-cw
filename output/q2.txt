@@ -1,5 +1,10 @@
 GeneralUseCase:
-check
+displayReferrals
+
+
+
+GeneralUseCase:
+displayConsultations
 
 
 
@@ -7,6 +12,16 @@ Constraint:
 null
 r : referrals->sortedBy(date)
 ( "Patient: " + self.name1 + " " + self.name2 + " was referred to " + r.referredTo + " on " + r.date )->display()
-PatientGP check
+PatientGP displayReferrals
 false
+
+
+
+Constraint:
+null
+c : consultations->sortedBy(date)
+( "Patient: " + self + " with symptoms " + c.symptoms + " had a consultation on " + c.date + " with outcome " + c.outcome )->display()
+PatientGP displayConsultations
+false
+
 
