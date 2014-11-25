@@ -6,7 +6,7 @@ migrate
 
 Constraint:
 null
-p : PatientH & name1 = p.forename & name2 = p.surname & (((20141120/100) - (dob/100))/100) = p.ageyrs & (12 + ((20141120 mod 10000)/100 - (dob mod 10000)/100)) mod 12 = p.agemnths
+p : PatientH & name1 = p.forename & name2 = p.surname & (((20141120-dob)/10000.0)->floor()) = p.ageyrs & ( (((12 + ((20141120 mod 10000) - (dob mod 10000))/100.0) ) mod 12)->floor()) = p.agemnths
 Patient->exists( q | q.Id = Id & q.nhsNo = nhsNumber & q.fname = name1 & q.sname = name2 & q.dob = dob & q.address1 = addr1 & q.address2 = addr2 )
 PatientGP migrate
 false
