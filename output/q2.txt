@@ -11,7 +11,7 @@ displayConsultations
 Constraint:
 null
 r : referrals->sortedBy(date)
-( "Patient: " + self.name1 + " " + self.name2 + " was referred to " + r.referredTo + " on " + r.date )->display()
+( "Patient: " + self.name1 + " " + self.name2 + " was referred to " + r.referrer.name1 + " " + r.referrer.name2 + " (" + r.referrer.staffNumber + ") from " + r.referrer.surgery + ", on " + r.date )->display()
 PatientGP displayReferrals
 false
 
@@ -20,7 +20,7 @@ false
 Constraint:
 null
 c : consultations->sortedBy(date)
-( "Patient: " + self + " with symptoms " + c.symptoms + " had a consultation on " + c.date + " with outcome " + c.outcome )->display()
+( "Patient: " + self + " with symptoms " + c.symptoms + " had a consultation on " + c.date + " with outcome " + c.outcome + ", with " + c.doctor.name1 + " " + c.doctor.name2 + " (" + c.doctor.staffNumber + ") from " + c.doctor.surgery )->display()
 PatientGP displayConsultations
 false
 
